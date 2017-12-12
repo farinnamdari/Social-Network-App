@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACBCF4CD1FE03BFF00818EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCF4CC1FE03BFF00818EEA /* AppDelegate.swift */; };
+		ACBCF4CF1FE03BFF00818EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCF4CE1FE03BFF00818EEA /* ViewController.swift */; };
+		ACBCF4D21FE03C0000818EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBCF4D01FE03C0000818EEA /* Main.storyboard */; };
+		ACBCF4D41FE03C0000818EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBCF4D31FE03C0000818EEA /* Assets.xcassets */; };
+		ACBCF4D71FE03C0000818EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBCF4D51FE03C0000818EEA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACBCF4C91FE03BFF00818EEA /* SocialNetwrokApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwrokApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBCF4CC1FE03BFF00818EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACBCF4CE1FE03BFF00818EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACBCF4D11FE03C0000818EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACBCF4D31FE03C0000818EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACBCF4D61FE03C0000818EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACBCF4D81FE03C0000818EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACBCF4C61FE03BFE00818EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACBCF4C01FE03BFE00818EEA = {
+			isa = PBXGroup;
+			children = (
+				ACBCF4CB1FE03BFF00818EEA /* SocialNetwrokApp */,
+				ACBCF4CA1FE03BFF00818EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACBCF4CA1FE03BFF00818EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACBCF4C91FE03BFF00818EEA /* SocialNetwrokApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACBCF4CB1FE03BFF00818EEA /* SocialNetwrokApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACBCF4CC1FE03BFF00818EEA /* AppDelegate.swift */,
+				ACBCF4CE1FE03BFF00818EEA /* ViewController.swift */,
+				ACBCF4D01FE03C0000818EEA /* Main.storyboard */,
+				ACBCF4D31FE03C0000818EEA /* Assets.xcassets */,
+				ACBCF4D51FE03C0000818EEA /* LaunchScreen.storyboard */,
+				ACBCF4D81FE03C0000818EEA /* Info.plist */,
+			);
+			path = SocialNetwrokApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACBCF4C81FE03BFE00818EEA /* SocialNetwrokApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBCF4DB1FE03C0000818EEA /* Build configuration list for PBXNativeTarget "SocialNetwrokApp" */;
+			buildPhases = (
+				ACBCF4C51FE03BFE00818EEA /* Sources */,
+				ACBCF4C61FE03BFE00818EEA /* Frameworks */,
+				ACBCF4C71FE03BFE00818EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialNetwrokApp;
+			productName = SocialNetwrokApp;
+			productReference = ACBCF4C91FE03BFF00818EEA /* SocialNetwrokApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACBCF4C11FE03BFE00818EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Fareen;
+				TargetAttributes = {
+					ACBCF4C81FE03BFE00818EEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACBCF4C41FE03BFE00818EEA /* Build configuration list for PBXProject "SocialNetwrokApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACBCF4C01FE03BFE00818EEA;
+			productRefGroup = ACBCF4CA1FE03BFF00818EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACBCF4C81FE03BFE00818EEA /* SocialNetwrokApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACBCF4C71FE03BFE00818EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBCF4D71FE03C0000818EEA /* LaunchScreen.storyboard in Resources */,
+				ACBCF4D41FE03C0000818EEA /* Assets.xcassets in Resources */,
+				ACBCF4D21FE03C0000818EEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACBCF4C51FE03BFE00818EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBCF4CF1FE03BFF00818EEA /* ViewController.swift in Sources */,
+				ACBCF4CD1FE03BFF00818EEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACBCF4D01FE03C0000818EEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACBCF4D11FE03C0000818EEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACBCF4D51FE03C0000818EEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACBCF4D61FE03C0000818EEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACBCF4D91FE03C0000818EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACBCF4DA1FE03C0000818EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACBCF4DC1FE03C0000818EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialNetwrokApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tutorial.SocialNetwrokApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACBCF4DD1FE03C0000818EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialNetwrokApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tutorial.SocialNetwrokApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACBCF4C41FE03BFE00818EEA /* Build configuration list for PBXProject "SocialNetwrokApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBCF4D91FE03C0000818EEA /* Debug */,
+				ACBCF4DA1FE03C0000818EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBCF4DB1FE03C0000818EEA /* Build configuration list for PBXNativeTarget "SocialNetwrokApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBCF4DC1FE03C0000818EEA /* Debug */,
+				ACBCF4DD1FE03C0000818EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACBCF4C11FE03BFE00818EEA /* Project object */;
+}
