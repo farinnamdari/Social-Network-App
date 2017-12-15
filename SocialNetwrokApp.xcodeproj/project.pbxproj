@@ -13,6 +13,7 @@
 		AC599BA41FE191A3001B8526 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599BA31FE191A3001B8526 /* RoundButton.swift */; };
 		AC599BA61FE1968D001B8526 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599BA51FE1968D001B8526 /* CustomTextField.swift */; };
 		AC599BA81FE19915001B8526 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599BA71FE19915001B8526 /* CustomButton.swift */; };
+		AC635C031FE44EB30059B389 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC635C021FE44EB30059B389 /* FeedVC.swift */; };
 		ACBCF4CD1FE03BFF00818EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCF4CC1FE03BFF00818EEA /* AppDelegate.swift */; };
 		ACBCF4CF1FE03BFF00818EEA /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCF4CE1FE03BFF00818EEA /* SingInVC.swift */; };
 		ACBCF4D21FE03C0000818EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBCF4D01FE03C0000818EEA /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		AC599BA31FE191A3001B8526 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		AC599BA51FE1968D001B8526 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		AC599BA71FE19915001B8526 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AC635C021FE44EB30059B389 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		AC7B24EE1FE2E505005E2FC2 /* SocialNetworkApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocialNetworkApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		AC7B24EF1FE302FC005E2FC2 /* SocialNetwrokApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialNetwrokApp.entitlements; sourceTree = "<group>"; };
 		ACBCF4C91FE03BFF00818EEA /* SocialNetwrokApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwrokApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +86,6 @@
 		ACBCF4CB1FE03BFF00818EEA /* SocialNetwrokApp */ = {
 			isa = PBXGroup;
 			children = (
-				AC7B24EF1FE302FC005E2FC2 /* SocialNetwrokApp.entitlements */,
 				ACF6571D1FE042930044D70C /* Model */,
 				ACF6571C1FE0428B0044D70C /* View */,
 				ACF6571B1FE042830044D70C /* Controller */,
@@ -95,6 +96,7 @@
 				ACBCF4D51FE03C0000818EEA /* LaunchScreen.storyboard */,
 				ACBCF4D81FE03C0000818EEA /* Info.plist */,
 				ACF657191FE03CC40044D70C /* GoogleService-Info.plist */,
+				AC7B24EF1FE302FC005E2FC2 /* SocialNetwrokApp.entitlements */,
 			);
 			path = SocialNetwrokApp;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBCF4CE1FE03BFF00818EEA /* SingInVC.swift */,
+				AC635C021FE44EB30059B389 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -260,6 +264,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -294,6 +299,7 @@
 				AC599BA41FE191A3001B8526 /* RoundButton.swift in Sources */,
 				AC599BA61FE1968D001B8526 /* CustomTextField.swift in Sources */,
 				ACBCF4CF1FE03BFF00818EEA /* SingInVC.swift in Sources */,
+				AC635C031FE44EB30059B389 /* FeedVC.swift in Sources */,
 				AC599BA81FE19915001B8526 /* CustomButton.swift in Sources */,
 				ACBCF4CD1FE03BFF00818EEA /* AppDelegate.swift in Sources */,
 				AC599BA21FE18972001B8526 /* Constants.swift in Sources */,
