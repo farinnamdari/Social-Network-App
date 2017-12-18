@@ -15,6 +15,7 @@
 		AC599BA81FE19915001B8526 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599BA71FE19915001B8526 /* CustomButton.swift */; };
 		AC635C031FE44EB30059B389 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC635C021FE44EB30059B389 /* FeedVC.swift */; };
 		AC7580C61FE828CE0076B1A4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7580C51FE828CE0076B1A4 /* CircleView.swift */; };
+		AC7580C81FE846120076B1A4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7580C71FE846120076B1A4 /* PostCell.swift */; };
 		ACBCF4CD1FE03BFF00818EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCF4CC1FE03BFF00818EEA /* AppDelegate.swift */; };
 		ACBCF4CF1FE03BFF00818EEA /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCF4CE1FE03BFF00818EEA /* SingInVC.swift */; };
 		ACBCF4D21FE03C0000818EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBCF4D01FE03C0000818EEA /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		AC599BA71FE19915001B8526 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AC635C021FE44EB30059B389 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		AC7580C51FE828CE0076B1A4 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		AC7580C71FE846120076B1A4 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		AC7B24EE1FE2E505005E2FC2 /* SocialNetworkApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocialNetworkApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		AC7B24EF1FE302FC005E2FC2 /* SocialNetwrokApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialNetwrokApp.entitlements; sourceTree = "<group>"; };
 		ACBCF4C91FE03BFF00818EEA /* SocialNetwrokApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwrokApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				AC599BA51FE1968D001B8526 /* CustomTextField.swift */,
 				AC599BA71FE19915001B8526 /* CustomButton.swift */,
 				AC599BA31FE191A3001B8526 /* RoundButton.swift */,
+				AC7580C71FE846120076B1A4 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				AC599BA81FE19915001B8526 /* CustomButton.swift in Sources */,
 				ACBCF4CD1FE03BFF00818EEA /* AppDelegate.swift in Sources */,
 				AC599BA21FE18972001B8526 /* Constants.swift in Sources */,
+				AC7580C81FE846120076B1A4 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
