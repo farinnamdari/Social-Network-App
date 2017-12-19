@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4984676600F1967F226CDD0A /* Pods_SocialNetwrokApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BA16C95D004247A6253048 /* Pods_SocialNetwrokApp.framework */; };
+		AC54041B1FE96E2100A57432 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54041A1FE96E2100A57432 /* DataService.swift */; };
 		AC599B9F1FE18608001B8526 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599B9E1FE18608001B8526 /* CustomView.swift */; };
 		AC599BA21FE18972001B8526 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599BA11FE18972001B8526 /* Constants.swift */; };
 		AC599BA41FE191A3001B8526 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599BA31FE191A3001B8526 /* RoundButton.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC54041A1FE96E2100A57432 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		AC599B9E1FE18608001B8526 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		AC599BA11FE18972001B8526 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AC599BA31FE191A3001B8526 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC5404191FE96DC600A57432 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC54041A1FE96E2100A57432 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		AC599BA01FE18958001B8526 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 				ACF6571C1FE0428B0044D70C /* View */,
 				ACF6571B1FE042830044D70C /* Controller */,
 				AC599BA01FE18958001B8526 /* Util */,
+				AC5404191FE96DC600A57432 /* Services */,
 				ACBCF4CC1FE03BFF00818EEA /* AppDelegate.swift */,
 				ACBCF4D01FE03C0000818EEA /* Main.storyboard */,
 				ACBCF4D31FE03C0000818EEA /* Assets.xcassets */,
@@ -306,6 +317,7 @@
 				AC599BA41FE191A3001B8526 /* RoundButton.swift in Sources */,
 				AC599BA61FE1968D001B8526 /* CustomTextField.swift in Sources */,
 				ACBCF4CF1FE03BFF00818EEA /* SingInVC.swift in Sources */,
+				AC54041B1FE96E2100A57432 /* DataService.swift in Sources */,
 				AC635C031FE44EB30059B389 /* FeedVC.swift in Sources */,
 				AC599BA81FE19915001B8526 /* CustomButton.swift in Sources */,
 				ACBCF4CD1FE03BFF00818EEA /* AppDelegate.swift in Sources */,
