@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4984676600F1967F226CDD0A /* Pods_SocialNetwrokApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BA16C95D004247A6253048 /* Pods_SocialNetwrokApp.framework */; };
 		AC54041B1FE96E2100A57432 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54041A1FE96E2100A57432 /* DataService.swift */; };
+		AC54041D1FE98EDC00A57432 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54041C1FE98EDC00A57432 /* Post.swift */; };
 		AC599B9F1FE18608001B8526 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599B9E1FE18608001B8526 /* CustomView.swift */; };
 		AC599BA21FE18972001B8526 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599BA11FE18972001B8526 /* Constants.swift */; };
 		AC599BA41FE191A3001B8526 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC599BA31FE191A3001B8526 /* RoundButton.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		AC54041A1FE96E2100A57432 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		AC54041C1FE98EDC00A57432 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		AC599B9E1FE18608001B8526 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		AC599BA11FE18972001B8526 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AC599BA31FE191A3001B8526 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		ACF6571D1FE042930044D70C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AC54041C1FE98EDC00A57432 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				AC7580C61FE828CE0076B1A4 /* CircleView.swift in Sources */,
 				AC599B9F1FE18608001B8526 /* CustomView.swift in Sources */,
 				AC599BA41FE191A3001B8526 /* RoundButton.swift in Sources */,
+				AC54041D1FE98EDC00A57432 /* Post.swift in Sources */,
 				AC599BA61FE1968D001B8526 /* CustomTextField.swift in Sources */,
 				ACBCF4CF1FE03BFF00818EEA /* SingInVC.swift in Sources */,
 				AC54041B1FE96E2100A57432 /* DataService.swift in Sources */,
