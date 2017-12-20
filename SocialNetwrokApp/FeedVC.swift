@@ -10,10 +10,12 @@ import UIKit
 import Firebase
 import SwiftKeychainWrapper
 
-class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var imageAddView: CircleView!
     @IBOutlet weak var newsFeedTableView: UITableView!
-    
+ 
+    var imagePicker: UIImagePickerController!
     var posts = [Post]()
     
     override func viewDidLoad() {
@@ -21,6 +23,10 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         newsFeedTableView.delegate = self
         newsFeedTableView.dataSource = self
+        
+        imagePicker = UIImagePickerController()
+        imagePicker.allowsEditing = true
+        imagePicker.delegate = self
         
         // geting data from firebase
         DataService.ds.REF_POSTS.observe(.value, with: { (snapshot) in
@@ -60,11 +66,25 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         return PostCell()
     }
     
-    @IBAction func signOutTapped(_ sender: UIButton) {
+    /* UIImagePickerControllerDelegate functions */
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let image = info[UIImagePickerControllerEditedImage] as? UIImage {
+            imageAddView.image = image
+        } else {
+            print("Valid image was not selected!")
+        }
+        
+        imagePicker.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func signOutTapped(_ sender: UITapGestureRecognizer) {
         let keychainResult = KeychainWrapper.defaultKeychainWrapper.remove(key: KEY_UID)
         
         try! Auth.auth().signOut()
         performSegue(withIdentifier: "showSignInVC", sender: nil)
     }
 
+    @IBAction func addImageTapped(_ sender: UITapGestureRecognizer) {
+        present(imagePicker, animated: true, completion: nil)
+    }
 }
