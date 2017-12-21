@@ -268,16 +268,16 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Trn-6S-ATq">
-                                                                    <rect key="frame" x="0.0" y="65" width="327" height="120"/>
+                                                                    <rect key="frame" x="0.0" y="65" width="327" height="150"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="120" id="Nla-Lt-3g1"/>
+                                                                        <constraint firstAttribute="height" constant="150" id="Nla-Lt-3g1"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="syx-Do-H4b">
-                                                                    <rect key="frame" x="0.0" y="190" width="327" height="79"/>
+                                                                    <rect key="frame" x="0.0" y="220" width="327" height="49"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="lAh-sE-bGy"/>
+                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="lAh-sE-bGy"/>
                                                                     </constraints>
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
