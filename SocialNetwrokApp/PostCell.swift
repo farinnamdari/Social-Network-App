@@ -12,20 +12,28 @@ import Firebase
 class PostCell: UITableViewCell {
 
     @IBOutlet weak var profileImg: CircleView!
+    @IBOutlet weak var likeImg: CircleView!
     @IBOutlet weak var userNameLbl: UILabel!
+    @IBOutlet weak var likesLbl: UILabel!
     @IBOutlet weak var postImg: UIImageView!
     @IBOutlet weak var captionTxtView: UITextView!
-    @IBOutlet weak var likesLbl: UILabel!
     
     var post: Post!
+    var likesRef: DatabaseReference!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(likeTapped))
+        
+        tap.numberOfTapsRequired = 1
+        likeImg.addGestureRecognizer(tap)
+        likeImg.isUserInteractionEnabled = true
     }
     
     func configureCell(post: Post, img: UIImage? = nil) {
         self.post = post
-        print("POST imageURL:", post.imageUrl)
+        likesRef = DataService.ds.REF_USER_CURRENT.child("likes").child(post.postKey)
         
         captionTxtView.text = post.caption
         likesLbl.text = "\(post.likes)"
@@ -50,7 +58,28 @@ class PostCell: UITableViewCell {
                 }
             })
         }
+        
+        likesRef.observeSingleEvent(of: .value, with: {(snapshot) in
+            if let _ = snapshot.value as? NSNull {
+                self.likeImg.image = UIImage(named: "empty-heart")
+            } else {
+                self.likeImg.image = UIImage(named: "filled-heart")
+            }
+        })
     }
-
+    
+    func likeTapped(sender: UITapGestureRecognizer) {
+        likesRef.observeSingleEvent(of: .value, with: { (snapshot) in
+            if let _ = snapshot.value as? NSNull {
+                self.likeImg.image = UIImage(named: "filled-heart")
+                self.post.adjustLikes(addLike: true)
+                self.likesRef.setValue(true)
+            } else {
+                self.likeImg.image = UIImage(named: "empty-heart")
+                self.post.adjustLikes(addLike: false)
+                self.likesRef.removeValue()
+            }
+        })
+    }
 
 }
